@@ -1,5 +1,6 @@
 <div class="elart-product-container">
-    <img [src]="product.pImage">
+   <!--
+      <img [src]="product.pImage">
     <p>Name: {{ product.name }}</p>
     <p>Price : {{ '$' + product.price }}</p>
     <p>Color : {{ product.color }}</p>
@@ -8,4 +9,6 @@
     <button (click)="decrementCartValue()">-</button>
     <button>{{addToCart}}</button>
     <button (click)="incrementCartValue()">+</button>
+   -->
+   <app-search></app-search>
 </div>
